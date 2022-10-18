@@ -1,2 +1,1 @@
-const answer = 42;
-export default answer;
+export * from './sha1.js';
