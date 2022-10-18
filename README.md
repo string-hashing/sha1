@@ -4,12 +4,17 @@
 SHA1 bytestring hashing for JavaScript.
 See [docs](https://string-hashing.github.io/sha1/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+```js
+import {alloc} from '@array-like/alloc';
+import * as ascii from '@codec-bytes/ascii';
+import * as base16 from '@codec-bytes/base16';
+import {sha1} from '@string-hashing/sha1';
+const string = 'The quick brown fox jumps over the lazy dog';
+const bytes = ascii.encode(string);
+const digest = sha1(bytes, bytes.length * 8, alloc(20));
+digest; // [0x2f, 0xd4, 0xe1, 0xc6, 0x7a, 0x2d, 0x28, 0xfc, 0xed, 0x84, ...]
+base16.decode(digest); // '2FD4E1C67A2D28FCED849EE1BB76E7391B93EB12'
+```
 
 [![License](https://img.shields.io/github/license/string-hashing/sha1.svg)](https://raw.githubusercontent.com/string-hashing/sha1/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-hashing/sha1.svg)](https://www.npmjs.org/package/@string-hashing/sha1)
