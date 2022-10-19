@@ -1611,7 +1611,7 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.12.tgz#920447fdd78d76b19de0438b7f60df3c4a80bf1c"
   integrity sha512-WwA1MW0++RfXmCr12xeYOOC5baSC9mSb0ZqCquFzKhcoF4TvHu5MKOuXsncgZcpVFhB1pXd5hZmM0ryAoCp12A==
 
-"@typescript-eslint/eslint-plugin@^5.35.1":
+"@typescript-eslint/eslint-plugin@*":
   version "5.40.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.40.1.tgz#3203a6ff396b1194083faaa6e5110c401201d7d5"
   integrity sha512-FsWboKkWdytGiXT5O1/R9j37YgcjO8MKHSUmWnIEjVaz0krHkplPnYi7mwdb+5+cs0toFNQb0HIrN7zONdIEWg==
@@ -1625,7 +1625,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.35.1":
+"@typescript-eslint/parser@*":
   version "5.40.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.40.1.tgz#e7f8295dd8154d0d37d661ddd8e2f0ecfdee28dd"
   integrity sha512-IK6x55va5w4YvXd4b3VrXQPldV9vQTxi5ov+g4pMANsXPTXOcfjx08CRR1Dfrcc51syPtXHF5bgLlMHYFrvQtg==
@@ -3707,7 +3707,7 @@ eslint-config-prettier@^8.5.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-xo-typescript@^0.53.0:
+eslint-config-xo-typescript@*:
   version "0.53.0"
   resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.53.0.tgz#702be21ea0dfcb124903c5f723d023b1fdeb0da2"
   integrity sha512-IJ1n70egMPTou/41HoGGFbLf/2WCsVW5lSUxOSklrR8T1221fMRPVJxIVZ3evr8R+N5wR6uzg/0uzSymwWA5Bg==
@@ -8826,21 +8826,21 @@ xdg-basedir@^4.0.0:
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-2.0.1.tgz#4d8b8f1eccd3419aa362061becef515e1e559635"
   integrity sha512-jRKe/iQYMyVJpzPH+3HL97Lgu5HrCfii+qSo+TfjKHtOnvbnvdVfMYrn9Q34YV81M2e5sviJlI6Ko9y+nByzvA==
 
-xo@0.52.3:
-  version "0.52.3"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-0.52.3.tgz#524de05f1bf83f211045a5f6fe547da914a20a16"
-  integrity sha512-liCEteZ5z+QRyh3XzsYWQyxedBHBvx8CDlNvvi+BJz74L0E5/ID2v7JtoX3bD541AlMuOy4e/iWif6hhNGBFNw==
+xo@0.52.4:
+  version "0.52.4"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-0.52.4.tgz#c153be451c9fa258e3f993ccae3b9fef03e0a6c5"
+  integrity sha512-5K+2bSy+nPO1fE6TS5KydgqhZ5pyXvO1P6Rw98aflxHi2LFWoShLmDpJOCxSpIP5867LVOCdH/WO+7iXk6/WVQ==
   dependencies:
     "@eslint/eslintrc" "^1.3.0"
-    "@typescript-eslint/eslint-plugin" "^5.35.1"
-    "@typescript-eslint/parser" "^5.35.1"
+    "@typescript-eslint/eslint-plugin" "*"
+    "@typescript-eslint/parser" "*"
     arrify "^3.0.0"
     cosmiconfig "^7.0.1"
     define-lazy-prop "^3.0.0"
     eslint "^8.22.0"
     eslint-config-prettier "^8.5.0"
     eslint-config-xo "^0.42.0"
-    eslint-config-xo-typescript "^0.53.0"
+    eslint-config-xo-typescript "*"
     eslint-formatter-pretty "^4.1.0"
     eslint-import-resolver-webpack "^0.13.2"
     eslint-plugin-ava "^13.2.0"
