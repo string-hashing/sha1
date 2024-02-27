@@ -18,7 +18,7 @@ base16.decode(digest); // '2FD4E1C67A2D28FCED849EE1BB76E7391B93EB12'
 
 [![License](https://img.shields.io/github/license/string-hashing/sha1.svg)](https://raw.githubusercontent.com/string-hashing/sha1/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-hashing/sha1.svg)](https://www.npmjs.org/package/@string-hashing/sha1)
-[![Tests](https://img.shields.io/github/workflow/status/string-hashing/sha1/ci?event=push&label=tests)](https://github.com/string-hashing/sha1/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/string-hashing/sha1/ci.yml?branch=main&event=push&label=tests)](https://github.com/string-hashing/sha1/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/string-hashing/sha1.svg)](https://github.com/string-hashing/sha1/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/string-hashing/sha1.svg)](https://github.com/string-hashing/sha1/issues)
 [![Downloads](https://img.shields.io/npm/dm/@string-hashing/sha1.svg)](https://www.npmjs.org/package/@string-hashing/sha1)
