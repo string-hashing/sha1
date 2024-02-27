@@ -6,7 +6,7 @@ function cycle(h, w) {
 	let b = h[1];
 	let c = h[2];
 	let d = h[3];
-	let e = h[4]; // eslint-disable-line unicorn/prevent-abbreviations
+	let e = h[4];
 
 	// Main loop:[35]
 	// for j from 0 to 79
